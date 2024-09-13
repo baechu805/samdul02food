@@ -13,4 +13,6 @@ def read_root():
 def food(name: str):
     # 시간을 구함
     # 음식 이름과 시간을 csv로 저장 -> /code/data/food.csv
+    # DB저장
+    print("========================")
     return {"food": name, "time": time.strftime('%Y-%m-%d %H:%M:%S')}
