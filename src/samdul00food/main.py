@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "n16"}
+    return {"Hello": "n72"}
 
 @app.get("/food")
 def food(name: str):
